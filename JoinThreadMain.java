@@ -17,5 +17,6 @@ public class JoinThreadMain {
         }
 
         System.out.println("Main function ends");
+        
     }
 }
