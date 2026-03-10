@@ -15,7 +15,7 @@ public class NumberSharedResourceMain {
         });         
         Thread evenThread = new Thread(() -> {
             try {
-                for (int i = 1; i <= 10; i++) {
+                for (int i = 1; i <= 10 ; i++) {
                     numberSharedResource.printEven();
                 }
             } catch (InterruptedException e) {
